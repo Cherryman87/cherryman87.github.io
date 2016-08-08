@@ -1,7 +1,0 @@
-.uppermenu{
-	display: inline-block;
-	color: red;
-}
-div{
-	color: blue;
-}
