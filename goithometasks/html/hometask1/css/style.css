@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Distric medium', sans-serif;
+    background-color: #f5f2f3;
+}
+
+hr {
+    height: 1px;
+    background-color: #f5f2f3;
+    color: #f5f2f3;
+
+}
+
+.box {
+    width: 500px;
+    margin: auto;
+}
+
+.my-name {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.my-photo {
+    width: 200px;
+    height: 200px;
+    margin-top: 28px;
+    margin-left: 150px;
+}
+
+hr {
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.my-work {
+    margin-top: 25px;
+    color: #808080;
+    font-size: 12pt;
+}
+
+.wanna-study-because, 
+.my-tel, 
+.vk-profile, 
+.my-skills {
+    margin-bottom: 28px;
+    font-size: 12pt;
+}
+
+.reasons-list, 
+.my-tel-is, 
+.my-skills-are, 
+.vk-ref {
+    font-size: 12pt; 
+}
+
+.reasons-list {
+    margin-left: 30px;
+
+}
+
+.vk-ref {
+    font-style: italic;
+}
+
+.my-tel-is, 
+.vk-ref, 
+.my-skills-are {
+    margin-bottom: 24px;
+    margin-left: 40px;
+}
+
+.vk-ref:visited {
+    color: #00f;
+}
+
+
