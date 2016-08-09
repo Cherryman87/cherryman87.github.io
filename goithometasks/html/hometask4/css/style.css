@@ -1,0 +1,244 @@
+* {
+	margin: px;
+	padding: px;
+}
+
+body {
+	font-family: 'Arial Narrow', sans-serif ;
+}
+	
+.main-page {
+	width: 1000px;
+	height: 990px;
+	margin-top: -9px;
+	position: relative;
+	left: 150px;
+	background-color: #edeef0;
+	-webkit-box-shadow: -1px 0px 20px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 0px 20px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 0px 20px -1px rgba(0,0,0,0.75);
+}
+
+.header {
+	width: 1000px;
+	height: 175px;
+	background-color: #fff;
+}
+
+.pic2 {
+	position: absolute;
+	top: 110px;
+	left: 635px;
+}
+
+.contacts {
+	width: 130px;
+	height: 80px;
+	position: absolute;
+	top: 10px;
+	left: 840px;
+	font-size: 10pt;
+	line-height: 0.3;
+	color: #41a1b9;
+}
+
+.countries {
+	width: 433px;
+	position: absolute;
+	top: 158px;
+	left: 647px;
+	font-family: cambria sans-serif;
+	font-size: 6pt;
+}
+
+.countries > a {
+	margin-right: 33px;
+	color: #41a1b9;
+}
+
+.countries :last-child {
+	margin-left: -16px;
+}
+
+.countries :nth-child(2) {
+	margin-left: 2px;
+}
+
+.countries :nth-child(5) {
+	margin-left: -8px;
+}
+
+.title-image {
+	height: 235px;
+	margin-top: -3px;
+	overflow: hidden;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+	width: 160px;
+	height: 34px;
+    float: left;
+    position: relative;
+    background-color: #333333;
+    font-size: 11pt;
+}
+
+.about-us, .contact-info {
+	width: 100px !important ;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.a-main {
+	text-align: center;
+}
+
+ul.menu > li > a:hover {
+    background-color: black;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 160px;
+    top: 37px;
+    left: 0;
+}
+
+.travels::after {
+	content: " \2207";
+	transform: rotate(15deg);
+
+}
+
+.services::after {
+	content: " \2207";
+	transform: skewY(90deg);
+}
+
+.partners::after {
+	content: " \2207";
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.column1, .column2, .column3 {
+	width: 210px;
+	margin-top: 3px;
+	background-color: #edeef0;
+	height: 545px;
+	float: left;
+}
+
+.column1 > h3, .column3 > h3 {
+	text-align: center;
+	color: #646c66;
+}
+
+.column1 > p, .column3 > p {
+	padding: 0px 25px 0px 25px;
+	text-align: justify;
+	line-height: 2;
+	color: #7d837f;
+}
+
+.column2 { 
+	width: 580px;
+	background-color: white;
+ }
+
+.columns {
+	width: 1000px;
+	height: 545px;
+}
+
+.footer {
+	margin-top: 8px;
+	font-size: 10pt;
+	text-align: center;
+	color: #fff;
+}
+
+.first-background {
+	width: 1280px;
+	height: 1020px;
+	position: absolute;
+	left: -1px;
+	background-color: #128aa7;
+}
+
+.second-background {
+	width: 1280px;
+	height: 145px;
+	position: absolute;
+	left: -1px;
+	top: 30px;
+	z-index: 0;
+	background: rgba(33,208,227,1);
+	background: -moz-linear-gradient(top, rgba(33,208,227,1) 0%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(33,208,227,1)), color-stop(85%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(33,208,227,1) 0%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(33,208,227,1) 0%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(33,208,227,1) 0%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(33,208,227,1) 0%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21d0e3', endColorstr='#ffffff', GradientType=0 );
+}
+
+.third-background {
+	width: 1280px;
+	height: 847px;
+	position: absolute;
+	left: -1px;
+	top: 171px;
+	background: rgba(61,194,209,1);
+	background: -moz-linear-gradient(top, rgba(61,194,209,1) 0%, rgba(61,194,209,1) 12%, rgba(12,116,160,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(61,194,209,1)), color-stop(12%, rgba(61,194,209,1)), color-stop(100%, rgba(12,116,160,1)));
+	background: -webkit-linear-gradient(top, rgba(61,194,209,1) 0%, rgba(61,194,209,1) 12%, rgba(12,116,160,1) 100%);
+	background: -o-linear-gradient(top, rgba(61,194,209,1) 0%, rgba(61,194,209,1) 12%, rgba(12,116,160,1) 100%);
+	background: -ms-linear-gradient(top, rgba(61,194,209,1) 0%, rgba(61,194,209,1) 12%, rgba(12,116,160,1) 100%);
+	background: linear-gradient(to bottom, rgba(61,194,209,1) 0%, rgba(61,194,209,1) 12%, rgba(12,116,160,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dc2d1', endColorstr='#0c74a0', GradientType=0 );
+}
