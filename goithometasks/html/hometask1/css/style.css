@@ -4,12 +4,16 @@
 }
 
 body {
-    font-family: 'Distric medium', sans-serif;
+    margin-top: 44px;
+    margin-left: -75px;
+    font-family: Arial, sans-serif;
     background-color: #f5f2f3;
 }
 
 hr {
-    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    height: 0.5px;
     background-color: #f5f2f3;
     color: #f5f2f3;
 
@@ -21,61 +25,83 @@ hr {
 }
 
 .my-name {
-    font-size: 28px;
+    margin-left: 5px;
+    font-size: 35px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .my-photo {
+
     width: 200px;
     height: 200px;
-    margin-top: 28px;
-    margin-left: 150px;
+    margin-top: 22px;
+    margin-left: 149px;
 }
 
-hr {
-    margin-top: 23px;
-    margin-bottom: 23px;
-}
 
 .my-work {
-    margin-top: 25px;
+    margin-top: 17px;
     color: #808080;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 .wanna-study-because, 
-.my-tel, 
-.vk-profile, 
-.my-skills {
-    margin-bottom: 28px;
+.my-tel {
+    margin-top: -5px;
     font-size: 12pt;
+}
+
+.reasons-list li{
+    margin-bottom: 4px;
+    margin-left: 30px;
+    text-indent: 5px;
+}
+
+.my-tel-is {
+    margin-left: 35px;
+    margin-bottom: 24px;
+}
+
+.vk-profile {
+    margin-top: -10px;
+    margin-bottom: 22px;
+    font-size: 12pt;
+}
+
+.vk-ref {
+    margin-left: 35px;
+    font-size: 10pt; 
+    font-style: italic;
 }
 
 .reasons-list, 
 .my-tel-is, 
-.my-skills-are, 
-.vk-ref {
-    font-size: 12pt; 
-}
-
-.reasons-list {
-    margin-left: 30px;
-
-}
-
-.vk-ref {
-    font-style: italic;
-}
-
-.my-tel-is, 
-.vk-ref, 
 .my-skills-are {
+    margin-top: 23px;
+    font-size: 10pt; 
+}
+
+.my-skills {
+    margin-top: -8px;
+    /*margin-bottom: 0x;*/
+    font-size: 12pt;
+}
+
+.my-skills-are {
+    margin-top: 22px;
     margin-bottom: 24px;
-    margin-left: 40px;
+    margin-left: 38px;
 }
 
 .vk-ref:visited {
     color: #00f;
+}
+
+.last-line{ 
+    margin-top: 18px;
+    margin-left: -2px;
+    margin-bottom: 25px;
 }
 
 

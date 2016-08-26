@@ -1,0 +1,95 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav {
+	width: 1214px;
+	height: 38px;
+	background-color: #074c89;
+	/*font-family: 'Myriad Pro', sans-serif;*/
+}
+
+nav > ul > li > a {
+	color: #4e9ed7;
+	text-decoration: none;
+}
+
+nav > ul > li {
+	margin-right: 10px;
+	position: relative;
+	top: 10px;
+	display: inline;
+}
+
+nav > ul:first-child {
+	margin-left: 468px;
+}
+
+nav > ul > li:nth-child(2) {
+	margin-left: 2px;
+	margin-right: 20px;
+}
+
+nav > ul > li:nth-child(3) {
+	margin-right: 20px;
+}
+
+nav > ul > li:nth-child(4) {
+	margin-right: 23px;
+}
+
+nav > ul > li:nth-child(5) {
+	margin-right: 65px;
+}
+
+nav > ul > li:nth-child(6) {
+	margin-right: 21px;
+}
+
+nav > ul > li:hover {
+	background-color: #4eabda;
+	padding: 10px;
+	padding-bottom: 11px;
+}
+
+nav > ul > li > a:hover {
+	color: #fff;
+}
+
+nav > ul > li:nth-child(1):hover {
+	margin-left: -10px;
+	margin-right: 0px;
+}
+
+nav > ul > li:nth-child(2):hover {
+	margin-left: -8px;
+	margin-right: 10px;
+}
+
+nav > ul > li:nth-child(3):hover {
+	margin-left: -10px;
+	margin-right: 10px;
+}
+
+nav > ul > li:nth-child(4):hover {
+	margin-left: -10px;
+	margin-right: 13px;
+}
+
+nav > ul > li:nth-child(5):hover {
+	margin-left: -10px;
+	margin-right: 55px;
+}
+
+nav > ul > li:nth-child(6):hover {
+	margin-left: -10px;
+	margin-right: 11px;
+}
+
+nav > ul > li:nth-child(7):hover {
+	margin-left: -10px;
+	margin-right: 11px;
+}
+
+
