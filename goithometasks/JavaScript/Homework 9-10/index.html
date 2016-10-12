@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/jcarousel/style.css">
+	<link rel="stylesheet" href="css/jcarousel/jcarousel.basic.css">
+	<!-- <link type="text/css" href="css/jquery.mcdropdown.css" rel="stylesheet" media="all" /> -->
+
+	<style>
+		input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+label {
+	cursor: pointer;
+}
+label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(img/checkbox-2.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+label:hover:after {
+background-position: 0 -34px;
+}
+input[type=checkbox]:checked + label:hover:after {
+background-position: 0 -51px;
+}
+
+	</style>
+</head>
+<body>
+
+<!-- This is HTML for jcarousel -->
+	 <div class="wrapper">
+           
+            <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                        <li><img src="img/images-for-carousel/1st May Parade_1934.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/images-for-carousel/Bessarabskiy Market_1930.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/images-for-carousel/Central Railway Station_1932.jpg" width="600" height="400" alt=""></li>
+                
+                    </ul>
+                </div>
+
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                
+                <p class="jcarousel-pagination">
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                </p>
+            </div>
+        </div>
+
+<!-- this is HTML for drop-down menu -->
+
+<select name="" id="">
+		<option>Vladik</option>
+		<option>suka</option>
+		<option>chasto</option>
+		<option>drochit</option>
+		<option>ochen</option>
+</select>
+
+
+<input type="checkbox" id="test-check1">
+<label for="test-check1">Чекбокс 1:</label>
+
+
+
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="js/jcarousel/jquery.jcarousel.min.js"></script>
+<script src="js/jcarousel/jcarousel.basic.js"></script>
+<!-- <script src="js/jquery.mcdropdown.js"></script>
+<script src="js/jquery.bgiframe.js"></script> -->
+<script src="js/jquery.searchabledropdown-1.0.8.min.js"></script>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
