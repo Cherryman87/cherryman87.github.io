@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	paddin: 0;
+}
+
+.modigliani {
+	-webkit-transform: skewX(-60deg) skewY(20deg); 
+      -ms-transform: skewX(-60deg) skewY(20deg);
+      transform: skewX(-60deg) skewY(20deg);
+	/*margin-top: 5%;*/
+	width: 300px; 
+}
+
+.paralax{
+	margin-top: 5%;
+	height: 250px;
+	background: url('../img/Impressionism.jpg')
+}
+
+.clickButton {
+	background-color: transarent;
+	border: none;
+	border-radius: 50%;
+	margin-top: 3%;
+}
+
+.clickGlyph {
+	-webkit-transform:scale(2,2); 
+	-ms-transform: scale(2,2);
+	transform: scale(2,2);
+	color: #56B294;
+}
+
+.clickGlyph:hover {
+	color: #000;
+}
+
+.me{
+	width: 15%;
+}
+
+.skills {
+	height: 450px;
+}
+
+.skills-icons {
+	height: 100px;
+	width: 100px;
+}
+
+.htmlcss{	
+	background: url('../img/job-skills/html+css.jpg') 42% 0;
+	background-size: cover;
+}
+
+.js{	
+	background: url('../img/job-skills/js2.png') 0 0;
+	background-size: cover;
+}
+
+.jquery{	
+	background: url('../img/job-skills/Jquery2.png');
+	background-size: contain;
+}
+
+.sass {
+	background: url('../img/job-skills/gulp-sass.png') 0 0;
+	background-size: cover;
+}
+
+.gulp{
+	background: url('../img/job-skills/gulp.jpg') 50%;
+	background-size: cover;
+}
+
+.git{
+	background: url('../img/job-skills/git.png');
+	background-size: cover;
+}
+
+#closeButton {
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	position: fixed;
+	border-radius: 50%;
+	z-index:2;
+}
+	
+#closeButton:active {
+	left: 62.5%;
+	top: 20.5%;
+	-webkit-transform:scale(0.96,0.96); 
+	-ms-transform: scale(0.96,0.96);
+	transform: scale(0.96,0.96);
+}
+
+.closeButton:after {
+	display: block;
+	position: absolute;
+	top: 45%;
+	left: 15%;
+	content: "";
+	width: 70%;
+	height: 10%;
+	-webkit-transform:rotate(-40deg); 
+	-ms-transform: rotate(-40deg);
+	transform:  rotate(-40deg);
+	background-color: #ffc860;
+	box-shadow: 1px 1px 3px 1px black;
+}
+
+.closeButton:before {
+	display: block;
+	position: absolute;
+	top: 45%;
+	left: 15%;
+	content: "";
+	width: 70%;
+	height: 10%;
+	-webkit-transform:rotate(40deg); 
+	-ms-transform: rotate(40deg);
+	transform:  rotate(40deg);
+	background-color: #ffc860;
+	box-shadow: 1px -1px 3px 1px black;
+}
+
+#enlargeButton{
+	width: 50px;
+	height: 50px;
+	background-color: #ffc860;
+	position: fixed;
+	border-radius: 50%;
+	z-index:2;
+}
+
+#enlargeButton:active {
+	-webkit-transform: scale(0.96,0.96);
+	-ms-transform: scale(0.96,0.96);
+	transform: scale(0.96,0.96);
+}
+
+#carousel-example-generic {
+	display: none;
+	position: fixed;
+	left: 30%;
+	top: 20%;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	border-radius: 50%;
+	background-color: lightgrey;
+	z-index:1;
+}
+
+#carouselButton {
+	background-color: red;
+	-webkit-transform: scale(2,2);
+	-ms-transform: scale(2,2);
+	transform: scale(2,2);
+	transition: all 2s;
+}
+
+.item-pic-1, .item-pic-2, .item-pic-3 {
+	cursor: pointer;
+}

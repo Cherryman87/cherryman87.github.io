@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Blurr Example Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,900' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+            
+            body {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400; 
+            } 
+            
+            .header {
+                text-transform: uppercase;
+                font-weight: 900;
+                text-align: center;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 26px;
+                letter-spacing: 5px;
+                color: #111;
+            }
+                        
+            .has-blurr > div {
+                color: #fff;
+                font-size: 56px;
+                font-weight: 900;
+                width: 50%;
+                text-align: center;
+                text-transform: uppercase;
+                line-height: 180px;
+                margin: 0 auto;
+            }
+            
+            
+        </style>
+    </head> 
+    <body style="padding: 0; margin: 0;">
+        
+        <div class='header'>BLURR Demo</div>
+        <div id="demo-container">
+            <div data-href="example_images/caribou.jpg" data-sharpness="20"><div><p class="large">Can't do without you</p></div></div>
+            <div data-href="example_images/hotsauce.jpg" data-sharpness="30" data-offsety='-00'><div><p class="large">Hot Sauce</p></div></div>
+            <div data-href="example_images/image3.jpg" data-sharpness="70"><div><p class="large">Peace</p></div></div>
+            <div data-href="example_images/odessa.jpg" data-sharpness="50" data-offsetx='150'><div><p class="large">Odessa</p></div></div>
+            <div data-href="example_images/beach.jpg" data-sharpness="80"><div><p class="large">Mountain</p></div></div>
+            <div data-href="example_images/image.jpg" data-sharpness="70"><div><p class="large">Summer</p></div></div>
+            <div data-href="example_images/image2.jpg" data-sharpness="70"><div><p class="large">Red Field</p></div></div>
+        </div>   
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="../dist/jquery.blurr.js"></script>
+        
+        <script type="text/javascript">
+            
+            $(document).ready(function() {
+                $('#demo-container > div').blurr();
+            });
+            
+        </script>
+                
+    </body>
+</html>
